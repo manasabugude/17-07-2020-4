@@ -1,6 +1,6 @@
 class NewThread implements Runnable
 {
-string name;
+String name;
 Thread t;
 NewThread(String threadname)
 {
@@ -13,7 +13,7 @@ public void run()
 {
 try
 {
-for(int i=5, i<0, i--)
+for(int i=5; i<0; i--)
 {
 System.out.println(name+":"+i);
 Thread.sleep(1000);
